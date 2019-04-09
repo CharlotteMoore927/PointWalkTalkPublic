@@ -68,7 +68,17 @@ This file contains the following columns:
  - **subj:** subject number
 
 ### point_walk_experience_ransubj.csv
-This file contains the following columns:
+This file contains columns from the above datasets, and the following new ones:
+- **firstpoint_mo:**	age at first point from reported sources
+- **firstwalk_mo:**	age at first 3 steps from reported sources
+- **walk_experience:**	This is a measure of infants' months of experience with walking. The month where an infant started walking is 0. Months before that are negative and months after that are positive.
+- **point_experience:**	This is a measure of infants' months of experience with pointing. The month where an infant started pointing is 0. Months before that are negative and months after that are positive.
+- **walk_experience_zeros:**	This is a measure of infants' months of experience with walking. The month where an infant started walking is 0. Months before that are all 0s and months after that are positive.
+- **point_experience_zeros:**	This is a measure of infants' months of experience with pointing. The month where an infant started pointing is 0. Months before that are all 0s and months after that are positive.
+- **firstpoint_obs:**	age at first point from observed sources
+- **firstwalk_obs:**	age at first 3 steps from observed sources
+- **obs_point_exp:**	same as point_experience but for observed data
+- **obs_walk_exp:** same as walk_experience but for observed data
 
 ### subjlevel_pwt_obsrep_mo_ransubj.csv
 This file contains the following columns:
