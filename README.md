@@ -33,6 +33,11 @@ This file contains the following columns:
  - **subj:** subject number
 
 ### missing_surveys_ransubj.csv
+This file contains the following columns:
+**AgeMonthMotor_Uncorrected:** subject's age according to the motor survey they filled out
+**questionnaire:** which type of questionnaire is missing, CDI or the motor survey
+**subj:** subject number
+
 ### month_level_pwt_vocab_ransubj.csv
 ### point_walk_experience_ransubj.csv
 ### subjlevel_pwt_obsrep_mo_ransubj.csv
