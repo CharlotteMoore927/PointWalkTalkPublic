@@ -34,10 +34,41 @@ This file contains the following columns:
 
 ### missing_surveys_ransubj.csv
 This file contains the following columns:
-**AgeMonthMotor_Uncorrected:** subject's age according to the motor survey they filled out
-**questionnaire:** which type of questionnaire is missing, CDI or the motor survey
-**subj:** subject number
+- **AgeMonthMotor_Uncorrected:** subject's age according to the motor survey they filled out
+- **questionnaire:** which type of questionnaire is missing, CDI or the motor survey
+- **subj:** subject number
 
 ### month_level_pwt_vocab_ransubj.csv
+This file contains the following columns:
+ - **month:** subject age in months
+ - **CDIcomp:** reported receptive vocabulary
+ - **CDIprod:** reported productive vocabulary
+ - **CDInounprod:** reported receptive vocabulary, nouns only
+ - **noCDI:** logical. TRUE indicates that subject is missing their CDI for that month.
+ - **CDInouncomp:** (reported productive vocabulary, nouns only)
+ - **CHI:** (number of total words the child was observed to say)
+ - **CHItypes:** (number of unique words the child was observed to say)
+ - **obs_1stpoint_mo:** observed age in months of infants' first point	
+ - **obs_1stprodN_mo:**	observed age in months of infants' first produced noun
+ - **obs_1stprod_any_mo:** observed age in months of infants' first produced word of any type
+ - **obs_walk3_mo:** observed age in months of infants' first three steps	
+ - **obs_walk10_mo:** observed age in months of infants' first ten steps	
+ - **rep_1stpoint_mo:** reported age in months of infants' first point
+ - **rep_1stprodN_mo:** reported age in months of infants' first produced noun
+ - **rep_1stprod_any_mo:** reported age in months of infants' first produced word of any type
+ - **rep_walk3_mo:** reported age in months of infants' first three steps
+ - **rep_1stcomp_any_mo:** subject age in months at first reported comprehension of a word, according to the CDI
+ - **rep_1stcompN_mo:** subject age in months at first reported comprehesion of a _noun_, according to the CDI
+ - **obs3w:** logical. TRUE indicates that 3 unassisted steps have been observed for that subject at or before that age.
+ - **rep3w:** logical. TRUE indicates that 3 unassisted steps have been reported for that subject at or before that age.
+ - **obsp:** logical. TRUE indicates that a single-finger extended point has been observed for that subject at or before that age.
+ - **repp:** logical. TRUE indicates that a single-finger extended point has been reported for that subject at or before that age.
+ - **obst:** logical. TRUE indicates that a spoken word has been observed for that subject at or before that age.
+ - **rept:** logical. TRUE indicates that a spoken word has been reported for that subject at or before that age.
+ - **subj:** subject number
+
 ### point_walk_experience_ransubj.csv
+This file contains the following columns:
+
 ### subjlevel_pwt_obsrep_mo_ransubj.csv
+This file contains the following columns:
