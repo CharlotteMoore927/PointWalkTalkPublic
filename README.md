@@ -1,5 +1,5 @@
-# PointWalkTalkPublic
-Scripts associated with "Point, Walk, Talk: Links Between Three Early Milestones, from Observation and Parental Report"
+# Point Walk Talk
+Scripts and data files associated with "Point, Walk, Talk: Links Between Three Early Milestones, from Observation and Parental Report"
 
 - pwt_stats.R will reproduce all of our analyses, using our data.
 - pwt_graphs.R will reproduce all of the figures we present in our manuscript, using our data.
