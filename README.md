@@ -81,4 +81,4 @@ This file contains columns from the above datasets, and the following new ones:
 - **obs_walk_exp:** same as walk_experience but for observed data
 
 ### subjlevel_pwt_obsrep_mo_ransubj.csv
-This file contains the following columns:
+This file is composed of columns that have already been described above.
