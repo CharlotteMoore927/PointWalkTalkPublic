@@ -19,12 +19,12 @@ This file contains the following columns:
  - **obst:** logical. TRUE indicates that a spoken word has been observed for that subject at or before that age.
  - **rept:** logical. TRUE indicates that a spoken word has been reported for that subject at or before that age.
  - **vocab_type:** source of vocabulary data. Levels are:
-  - CDIcomp (reported receptive vocabulary)
-  - CDIprod (reported productive vocabulary)
-  - CHItypes (number of unique words the child was observed to say)
-  - CHI (number of total words the child was observed to say)
-  - CDInounprod (reported receptive vocabulary, nouns only)
-  - CDInouncomp (reported productive vocabulary, nouns only)
+   - CDIcomp (reported receptive vocabulary)
+   - CDIprod (reported productive vocabulary)
+   - CHItypes (number of unique words the child was observed to say)
+   - CHI (number of total words the child was observed to say)
+   - CDInounprod (reported receptive vocabulary, nouns only)
+   - CDInouncomp (reported productive vocabulary, nouns only)
  - **wordcount:** number of words reported to be in the vocabulary, by vocab_type
  - **obs3w_label:** summary of all infants in the dataset and whether they have been observed to walk three steps or not. "c" is for crawlers. "w" is for walkers. "44c, 0w" means that all 44 subjects are crawlers and none are walkers.
  - **rep3w_label:**	summary of all infants in the dataset and whether they have been reported to walk three steps or not.
